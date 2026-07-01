@@ -1,0 +1,21 @@
+{
+  "name": "lootdrop-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord-Bot für LootDrop – Account-Verknüpfung, LootCoins & Vault-Shop",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
